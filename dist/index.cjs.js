@@ -2141,11 +2141,11 @@ var links = [
         items: [
             {
                 label: "Exchange",
-                href: "https://dex.pantherswap.com",
+                href: "https://dex.tauros.finance",
             },
             {
                 label: "Liquidity",
-                href: "https://dex.pantherswap.com/#/pool",
+                href: "https://dex.tauros.finance/#/pool",
             },
         ],
     },
@@ -2226,15 +2226,15 @@ var links = [
         items: [
             {
                 label: "Voting",
-                href: "https://voting.pantherswap.com",
+                href: "https://voting.tauros.finance",
             },
             {
                 label: "Github",
-                href: "https://github.com/pancakeswap",
+                href: "https://github.com/TaurosFinance",
             },
             {
                 label: "Docs",
-                href: "https://docs.pantherswap.com",
+                href: "https://docs.tauros.finance",
             },
             {
                 label: "Blog",
@@ -2247,22 +2247,22 @@ var socials = [
     {
         label: "Github",
         icon: "GithubIcon",
-        href: "https://github.com/pantherswap",
+        href: "https://github.com/TaurosFinance",
     },
     {
         label: "Docs",
         icon: "GitbookIcon",
-        href: "https://docs.pantherswap.com",
+        href: "#,
     },
     {
         label: "Medium",
         icon: "MediumIcon",
-        href: "https://pantherswap.medium.com",
+        href: "#",
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/PantherSwap",
+        href: "https://twitter.com/TaurosFinance",
     },
     {
         label: "Telegram",
@@ -2270,11 +2270,11 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/PantherSwap",
+                href: "https://t.me/taurosswap",
             },
             {
                 label: "Announcements",
-                href: "https://t.me/PantherSwapAnn",
+                href: "https://t.me/tauroschannel",
             },
         ],
     },
@@ -2592,7 +2592,7 @@ var ConnectModal = function (_a) {
     var login = _a.login, _b = _a.onDismiss, onDismiss = _b === void 0 ? function () { return null; } : _b;
     return (React__default['default'].createElement(Modal, { title: "Connect to a wallet", onDismiss: onDismiss },
         connectors.map(function (entry, index) { return (React__default['default'].createElement(WalletCard, { key: entry.title, login: login, walletConfig: entry, onDismiss: onDismiss, mb: index < connectors.length - 1 ? "8px" : "0" })); }),
-        React__default['default'].createElement(HelpLink, { href: "https://docs.pantherswap.com/guides/faq#how-do-i-set-up-my-wallet-on-binance-smart-chain", external: true },
+        React__default['default'].createElement(HelpLink, { href: "https://docs.tauros.finance/guides/faq#how-do-i-set-up-my-wallet-on-binance-smart-chain", external: true },
             React__default['default'].createElement(Icon$o, { color: "primary", mr: "6px" }),
             "Learn how to connect")));
 };

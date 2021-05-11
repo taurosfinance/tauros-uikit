@@ -2128,11 +2128,11 @@ var links = [
         items: [
             {
                 label: "Exchange",
-                href: "https://dex.pantherswap.com",
+                href: "https://dex.tauros.finance",
             },
             {
                 label: "Liquidity",
-                href: "https://dex.pantherswap.com/#/pool",
+                href: "https://dex.tauros.finance/#/pool",
             },
         ],
     },
@@ -2213,7 +2213,7 @@ var links = [
         items: [
             {
                 label: "Voting",
-                href: "https://voting.pantherswap.com",
+                href: "https://voting.tauros.finance",
             },
             {
                 label: "Github",
@@ -2221,7 +2221,7 @@ var links = [
             },
             {
                 label: "Docs",
-                href: "https://docs.pantherswap.com",
+                href: "https://docs.tauros.finance",
             },
             {
                 label: "Blog",
@@ -2239,7 +2239,7 @@ var socials = [
     {
         label: "Docs",
         icon: "GitbookIcon",
-        href: "https://docs.pantherswap.com",
+        href: "https://docs.tauros.finance",
     },
     {
         label: "Medium",
@@ -2579,7 +2579,7 @@ var ConnectModal = function (_a) {
     var login = _a.login, _b = _a.onDismiss, onDismiss = _b === void 0 ? function () { return null; } : _b;
     return (React.createElement(Modal, { title: "Connect to a wallet", onDismiss: onDismiss },
         connectors.map(function (entry, index) { return (React.createElement(WalletCard, { key: entry.title, login: login, walletConfig: entry, onDismiss: onDismiss, mb: index < connectors.length - 1 ? "8px" : "0" })); }),
-        React.createElement(HelpLink, { href: "https://docs.pantherswap.com/guides/faq#how-do-i-set-up-my-wallet-on-binance-smart-chain", external: true },
+        React.createElement(HelpLink, { href: "https://docs.tauros.finance/guides/faq#how-do-i-set-up-my-wallet-on-binance-smart-chain", external: true },
             React.createElement(Icon$o, { color: "primary", mr: "6px" }),
             "Learn how to connect")));
 };

@@ -2255,7 +2255,7 @@ var socials = [
         href: "#,
     },
     {
-        label: "Medium",
+        label: "Blog",
         icon: "MediumIcon",
         href: "#",
     },

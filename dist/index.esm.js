@@ -2234,7 +2234,7 @@ var socials = [
     {
         label: "Github",
         icon: "GithubIcon",
-        href: "https://github.com/pantherswap",
+        href: "https://github.com/TaurosFinance",
     },
     {
         label: "Docs",
@@ -2244,12 +2244,12 @@ var socials = [
     {
         label: "Medium",
         icon: "MediumIcon",
-        href: "https://pantherswap.medium.com",
+        href: "#,
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/PantherSwap",
+        href: "https://twitter.com/TaurosFinance",
     },
     {
         label: "Telegram",
@@ -2257,11 +2257,11 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/PantherSwap",
+                href: "https://t.me/taurosswap",
             },
             {
                 label: "Announcements",
-                href: "https://t.me/PantherSwapAnn",
+                href: "https://t.me/tauroschannel",
             },
         ],
     },

@@ -2250,11 +2250,6 @@ var socials = [
         href: "https://github.com/TaurosFinance",
     },
     {
-        label: "Docs",
-        icon: "GitbookIcon",
-        href: "#,
-    },
-    {
         label: "Blog",
         icon: "MediumIcon",
         href: "#",
